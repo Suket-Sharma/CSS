@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+    .box{
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      text-align: center;
+      font-size: 20px;
+      border-radius: 10px;
+
+      animation-name: Go_there;
+      animation-duration:  2s;
+      animation-timing-function:  ease-out ;
+      animation-delay: 0;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes Go_there {
+      from{left: 50px;}
+      to{left: 250px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Animate</div>
+</body>
+</html>

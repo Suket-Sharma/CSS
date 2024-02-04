@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transform</title>
+</head>
+<Style>
+
+.btn,.btn1,.btn2,.btn3{
+  background-color: red;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  border: none;
+  
+  
+
+  
+}
+.btn:hover{
+  background-color: darkred;
+  transform: rotate(45deg);
+  padding: 15px 25px;
+}
+.btn:active{
+  background-color:purple;
+  
+}
+ .btn1:hover{
+  margin-top: 100px;
+  margin-left: 100px;
+  transform: scale(2);
+  transition: all 2s ease-out;
+ }
+ .btn2{
+  margin: 100px 200px 0px 200px;
+ }
+ .btn2:hover{
+  transform: translate(200px);
+  transition: all 2s ease-out;
+ }
+ .btn3{
+  margin: 100px 200px 0px 200px;
+ }
+ .btn3:hover{
+  transform: skew(45deg);
+ }
+</Style>
+
+<body>
+  <button class="btn"> Subscribe</button><hr>
+  <button class="btn1"> Subscribe</button><hr>
+  <button class="btn2"> Subscribe</button><hr>
+  <button class="btn3"> Subscribe</button>
+</body>
+</html>
